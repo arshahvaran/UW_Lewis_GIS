@@ -1,12 +1,12 @@
 # Before running the code, follow the next steps:
 
-# in Anaconda Prompt run this codes one by one in order
+# In Anaconda Prompt run this codes one by one in order
 # conda create -n plastics_env python=3.9
 # conda activate plastics_env
 # conda install -c conda-forge xarray netcdf4 rasterio
-# make sure these three libraries are in the list: xarray netcdf4 rasterio
+# Make sure these three libraries are in the list: xarray netcdf4 rasterio
 # conda list
-
+# The main file "plastics.nc" is downloaded from https://ecommons.cornell.edu/handle/1813/103522 
 
 
 import xarray as xr

@@ -1,3 +1,12 @@
+# Make sure you have ArcGIS Pro installed (the code worked on v3.0.3)
+# Open Python Command Prompt
+# Navigate to the following directory
+# cd C:\Users\PHYS3009\Desktop\Plastics_NetCDF
+# Run the code
+# python Preparaing_NC_for_Spatial_Analysis.py
+
+
+
 import arcpy
 import os
 
@@ -9,7 +18,7 @@ arcpy.env.workspace = workspace
 arcpy.env.overwriteOutput = True
 
 # Input NetCDF file
-input_netcdf_path = os.path.join(workspace, "modified_plastics.nc")
+input_netcdf_path = r"C:\Users\PHYS3009\Desktop\Plastics_NetCDF\Modified_NC\modified_plastics.nc"
 
 # Define the output directories
 output_rasters_dir = os.path.join(workspace, "Output_Rasters")

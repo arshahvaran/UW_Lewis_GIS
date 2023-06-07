@@ -3,7 +3,7 @@
 # Navigate to the following directory
 # cd C:\Users\PHYS3009\Desktop\Plastics_NetCDF
 # Run the code
-# python Preparaing_NC_for_Spatial_Analysis.py
+# python Raster_Sum.py
 
 
 
